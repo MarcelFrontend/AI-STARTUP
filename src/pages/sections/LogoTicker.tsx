@@ -7,7 +7,7 @@ import pulseLogo from "../../assets/logo-pulse.png";
 import echoLogo from "../../assets/logo-echo.png";
 import { motion } from "framer-motion";
 
-export const LogoTicker = () => {
+const LogoTicker = () => {
   return (
     <section className="py-20 md:py-24">
       <div className="container">
@@ -54,3 +54,5 @@ export const LogoTicker = () => {
     </section>
   );
 };
+
+export default LogoTicker

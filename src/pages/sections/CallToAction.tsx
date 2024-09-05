@@ -32,7 +32,7 @@ const useRelativeMousePos = (to: RefObject<HTMLElement>) => {
   return [mouseX, mouseY];
 };
 
-export const CallToAction = () => {
+const CallToAction = () => {
   const sectionRef = useRef<HTMLElement>(null);
   const borderedDivRef = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -83,3 +83,5 @@ export const CallToAction = () => {
     </section>
   );
 };
+
+export default CallToAction

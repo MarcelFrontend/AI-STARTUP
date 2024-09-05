@@ -3,7 +3,7 @@ import XSocial from "../../assets/social-x.svg";
 import InstaSocial from "../../assets/social-instagram.svg";
 import YTSocial from "../../assets/social-youtube.svg";
 
-export const Footer = () => {
+const Footer = () => {
   return (
     <footer className="py-5 border-t border-white/15">
       <div className="container">
@@ -39,3 +39,5 @@ export const Footer = () => {
     </footer>
   );
 };
+
+export default Footer

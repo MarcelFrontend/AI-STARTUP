@@ -114,7 +114,7 @@ const FeatureTab = (
   );
 };
 
-export const Features = () => {
+const Features = () => {
   const [selectedTab, setSelectedTab] = useState(0);
   const bgPosX = useMotionValue(tabs[0].backgroundPositionX);
   const bgPosY = useMotionValue(tabs[0].backgroundPositionY);
@@ -184,3 +184,5 @@ export const Features = () => {
     </section>
   );
 };
+
+export default Features

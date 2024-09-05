@@ -8,7 +8,7 @@ import {
 } from "framer-motion";
 import { useRef } from "react";
 
-export const Hero = () => {
+const Hero = () => {
   const sectionRef = useRef(null);
   const { scrollYProgress } = useScroll({
     target: sectionRef,
@@ -81,3 +81,4 @@ export const Hero = () => {
     </motion.section>
   );
 };
+export default Hero
