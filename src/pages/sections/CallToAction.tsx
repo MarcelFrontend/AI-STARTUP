@@ -68,10 +68,10 @@ const CallToAction = () => {
             style={{ maskImage, backgroundImage: `url(${gridLines.src})` }}
           ></motion.div>
           <div className="relative">
-            <h6 className="text-5xl md:text-6xl max-w-sm mx-auto tracking-tighter text-center font-medium">
+            <h6 className="text-5xl md:text-6xl max-w-sm xl:max-w-2xl mx-auto tracking-tighter text-center font-medium">
               AI-driven SEO for everyone.
             </h6>
-            <p className="text-center text-lg md:text-xl max-w-xs mx-auto text-white/70 px-4 mt-5 tracking-tight">
+            <p className="text-center text-lg md:text-xl xl:text-2xl max-w-xs xl:max-w-sm mx-auto text-white/70 px-4 mt-5 tracking-tight">
               Achieve clear, impactful results without the complexity.
             </p>
             <div className="flex justify-center mt-8">

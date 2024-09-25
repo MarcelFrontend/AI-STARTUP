@@ -13,7 +13,7 @@ const LogoTicker = () => {
       <div className="container">
         <div className="flex items-center gap-5">
           <div className="flex-1 md:flex-none">
-            <h2>Trusted by top innovative teams</h2>
+            <h2 className="xl:text-2xl">Trusted by top innovative teams</h2>
           </div>
           <div className="flex flex-1 overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_20%,black_80%,transparent)]">
             <motion.div
@@ -44,7 +44,7 @@ const LogoTicker = () => {
                   src={logo.src}
                   key={logo.src}
                   alt=""
-                  className="h-6 w-auto "
+                  className="h-6 xl:h-9 w-auto "
                 />
               ))}
             </motion.div>

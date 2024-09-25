@@ -37,10 +37,10 @@ const Testimonials = () => {
   return (
     <section className="py-20 md:py-24">
       <div className="container">
-        <h5 className="text-5xl md:text-6xl text-center tracking-tighter font-medium">
+        <h5 className="text-5xl md:text-6xl xl:text-7xl text-center tracking-tighter font-medium">
           Beyond Expectations.
         </h5>
-        <p className="text-white/70 text-lg md:text-xl text-center mt-5 tracking-tight max-w-sm mx-auto">
+        <p className="text-white/70 text-lg md:text-xl xl:text-2xl text-center mt-5 tracking-tight max-w-sm xl:max-w-lg mx-auto">
           Our revolutionary AI SEO tools have transformed our clients
           strategies.
         </p>
